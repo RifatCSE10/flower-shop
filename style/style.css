@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  width: 1324px;
+  height: 586px;
+  margin: 0 auto;
+  background: rgba(229, 84, 115, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 66px;
+}
+
+.banner .banner-text {
+  height: 349px;
+  width: 488px;
+}
+
+.banner .banner-text h1 {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 55px;
+  font-weight: 552;
+  line-height: 66px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 22px;
+}
+
+.banner .banner-text p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  letter-spacing: 0%;
+}
+
+.banner .banner-text button {
+  width: 122px;
+  height: 44px;
+  border-radius: 8px;
+  background: rgb(229, 84, 115);
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 22px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.banner .banner-img {
+  width: 438px;
+  height: 552px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  top: 15px;
+}
+
+.banner .banner-img img{
+    height: 100%;
+    width: 100%;
+}
