@@ -1,0 +1,26 @@
+@media screen and (max-width:576px) {
+    .banner{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .banner .banner-text h1{
+        text-align: center;
+    }
+
+    .banner .banner-text p{
+        text-align: center;
+    }
+
+    .banner .banner-text button{
+        position: relative;
+        left: 50%;
+        margin-left: -61px;
+    }
+
+    .banner .banner-img{
+      top: -15px;
+    }
+
+}
