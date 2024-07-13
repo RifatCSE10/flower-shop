@@ -69,4 +69,17 @@
           margin: 0 auto;
       }
 
+      /* <======================================================>
+                   Services section start here
+    <======================================================> */
+
+    .services{
+
+        width: 576px;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
