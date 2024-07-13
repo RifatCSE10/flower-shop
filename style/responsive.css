@@ -1,4 +1,9 @@
 @media screen and (max-width:576px) {
+
+    /* <======================================================>
+                    Banner section start here
+    <======================================================> */
+
     .banner{
         width: 100%;
         height: auto;
@@ -22,5 +27,46 @@
     .banner .banner-img{
       top: -15px;
     }
+
+
+    /* <======================================================>
+                    Featues section start here
+    <======================================================> */
+
+
+    .features {
+        width: 576px;
+        height: auto;
+
+      }
+
+      .features .card-container {
+        width: 576px;
+        height: auto;
+        flex-direction: column;
+        margin: 0 auto;
+
+      }
+
+      .features .card-container .card{
+          height: auto;
+          /* width: 50%; */
+          width: 320px;
+          margin: 0 auto;
+      }
+
+      .features .card-container .card .card-wraper {
+          /* height: 90%;
+          width: 90%; */
+          height: 360px;
+          width: 320px;
+          margin: 0 auto;
+
+      }
+      .features .card-container .card .card-wraper .card-img img{
+          width: 100%;
+          height: 100%;
+          margin: 0 auto;
+      }
 
 }
