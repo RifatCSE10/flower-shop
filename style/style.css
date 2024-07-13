@@ -5,6 +5,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+.card-color-1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.card-color-2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.card-color-3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+
+/* <======================================================>
+                    Banner section start here
+    <======================================================> */
 
 .banner {
   width: 1324px;
@@ -70,7 +87,93 @@
   top: 15px;
 }
 
-.banner .banner-img img{
-    height: 100%;
-    width: 100%;
+.banner .banner-img img {
+  height: 100%;
+  width: 100%;
+}
+
+/* <======================================================>
+                    Featues section start here
+    <======================================================> */
+
+.features {
+  
+  width: 1010px;
+  height: 541px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.features .card-text {
+  height: 91px;
+  width: 409px;
+  margin: 0 auto;
+}
+
+.features .card-text h2 {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 27px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.features .card-text p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.features .card-container {
+  width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 33px;
+}
+
+.features .card-container .card {
+  height: 380px;
+  width: 320px;
+}
+
+.features .card-container .card .card-wraper {
+  height: 360px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.features .card-container .card .card-wraper .card-img {
+  height: 290px;
+  width: 213px;
+}
+
+.features .card-container .card .card-wraper .card-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.card p {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration-line: underline;
+  margin-bottom: 20px;
 }
